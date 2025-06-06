@@ -3,7 +3,8 @@
 Automatize a leitura de notícias de tecnologia com envio direto para seu e-mail.
 Este projeto realiza scraping de conteúdos do Tecnoblog e envia os destaques em um e-mail com layout responsivo.
 
-🔧 Criado como experimento prático para explorar automações com Node.js e aplicar conceitos de organização, integração de serviços e envio de informações relevantes de forma acessível.
+🔧 Criado como experimento prático para explorar automações com Node.js e aplicar conceitos de organização,
+integração de serviços e envio de informações relevantes de forma acessível.
 
 ✨ Funcionalidades
 🔍 Coleta automatizada de notícias do Tecnoblog
