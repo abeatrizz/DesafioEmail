@@ -1,7 +1,8 @@
 
 # 🤖 Tech News Scraper
 
-Um projeto simples e funcional feito com **Node.js** que realiza scraping de notícias de tecnologia do site [Tecnoblog](https://tecnoblog.net) e envia os resultados por e-mail em um template HTML responsivo.
+Um projeto simples e funcional feito com **Node.js** que realiza scraping de notícias de tecnologia do site
+[Tecnoblog](https://tecnoblog.net) e envia os resultados por e-mail em um template HTML responsivo.
 
 > Ideal para quem quer automatizar o recebimento de conteúdos atualizados sem precisar acessar o site manualmente.
 
@@ -207,7 +208,6 @@ Contribuições são bem-vindas!
 ## 📄 Licença
 
 Distribuído sob a licença MIT.  
-Consulte o arquivo `LICENSE` para mais informações.
 
 ---
 
@@ -216,4 +216,4 @@ Este projeto é apenas para fins educacionais. Respeite os termos de uso dos sit
 
 ---
 
-Desenvolvido com ❤️ por alguém que gosta de transformar curiosidade em automações úteis.
+Desenvolvido com Node.js e curiosidade por automações 🚀
