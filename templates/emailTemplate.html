@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Scraping</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
+        <h1 style="margin: 0; font-size: 28px;">📰 Relatório de Notícias</h1>
+        <p style="margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;">Dados coletados de {{SITE_NAME}}</p>
+    </div>
+    
+    <div style="background: #f8f9fa; padding: 20px; border-left: 4px solid #667eea;">
+        <h2 style="color: #333; margin: 0 0 15px 0;">📊 Resumo da Coleta</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+            <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <strong style="color: #667eea;">Total de Artigos:</strong><br>
+                <span style="font-size: 24px; color: #333;">{{TOTAL_ARTICLES}}</span>
+            </div>
+            <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <strong style="color: #667eea;">Data da Coleta:</strong><br>
+                <span style="color: #333;">{{SCRAPED_DATE}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: white; padding: 20px;">
+        <h2 style="color: #333; margin: 0 0 20px 0; border-bottom: 2px solid #667eea; padding-bottom: 10px;">📝 Últimas Notícias</h2>
+        
+        <div id="articles-container">
+            {{ARTICLES_LIST}}
+        </div>
+    </div>
+
+    <div style="background: #f8f9fa; padding: 20px; text-align: center; border-radius: 0 0 10px 10px; border-top: 1px solid #ddd;">
+        <p style="margin: 0; color: #666; font-size: 14px;">
+            🤖 Este email foi gerado automaticamente pelo sistema de scraping<br>
+            Desenvolvido com Node.js + Puppeteer + Nodemailer
+        </p>
+    </div>
+</body>
+</html>
